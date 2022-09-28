@@ -1,0 +1,17 @@
+github_user: saracenrhue
+docker_user: saracenrhue
+docker_password: passwd
+
+watched_repos:
+  0:
+    github_name: helloworld-docker
+    docker_name: helloworld
+    architecture: linux/amd64,linux/arm64
+  1:
+    github_name: code-server-docker
+    docker_name: codeserver
+    architecture: linux/amd64,linux/arm64
+  2:
+    github_name: dockerbuilder-docker
+    docker_name: dockerbuilder
+    architecture: linux/amd64,linux/arm64
