@@ -6,4 +6,4 @@ COPY . .
 
 VOLUME /home/app/config
 
-CMD apk add bash && systemctl start docker && bash ./start.sh
+CMD apk add bash && bash ./start.sh

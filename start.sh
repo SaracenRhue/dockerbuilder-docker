@@ -9,7 +9,7 @@ config="./config" # set path
 # download config if folder is empty
 if [ -z "$(ls -A $config)" ]; then
     cd $config
-    https://raw.githubusercontent.com/SaracenRhue/dockerbuilder-docker/main/config/config.yml
+    wget https://raw.githubusercontent.com/SaracenRhue/dockerbuilder-docker/main/config/config.yml
     cd ../
 fi
 
